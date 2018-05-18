@@ -78,46 +78,7 @@
                     </tr>
 
             </table>
-        </div>
-        
-        <div class="Estante">
-            <table>
-                <tr>
-                    <td>
-                        <a href=""><img src="../imagenes/AC.png" width="200" height="200"></a>
-                    </td>
-                    <td>
-                        <a href=""><img src="../imagenes/AN.png" width="200" height="200"></a>
-                    </td>
-                    <td>
-                        <a href=""><img src="../imagenes/ANC.png" width="200" height="200"></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Nombre uno
-                    </td>
-                    <td>
-                        Nombre dos
-                    </td>
-                    <td>
-                        Nombre tres
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Precio 1.00 $
-                    </td>
-                    <td>
-                        Precio 2.00 $
-                    </td>
-                    <td>
-                        Precio 3.00 $
-                    </td>
-                </tr>
-        
-            </table>
-        </div>     
+        </div>  
 
         <div class="Estante">
            <table>
