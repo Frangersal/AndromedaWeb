@@ -13,11 +13,11 @@ $tipo = "usuario";
 $ExiteUser = ExisteUsuario($username, $conexion);
 
 if($ExiteUser){     
-    headder("Location:paginas/registro-exitoso.php");
+    headder("Location:paginas/registro-fallido.php");
 }else{
     AltaUsuario($nombre, $apellido, $email, $username, $contrasena, $direccion, $tipo, $conexion);
+    headder("Location:paginas/registro-exitoso.php");
     
-    echo "El PUTO NO EXITE";
 }
 
 

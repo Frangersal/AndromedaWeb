@@ -53,9 +53,7 @@
                         <label for="cantidad">Cantidad de articulo:</label>   
                         <input type=num name="cantidad-articulo" required>
                             <br><br>
-                        <label for="imagen">Imagen:</label>   
-                         <input type="file" name="imagen" size="200" required>
-                           <br><br>
+                        
 
                         <select  name="comboTipo" required >
                             <option value="" disabled selected>Tipo</option>

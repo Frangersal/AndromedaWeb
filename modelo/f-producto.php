@@ -1,28 +1,27 @@
 <?php
 
 
-function AltaProducto($nombre, $descripcion, $precio_unitario, $cantidad, $imagen_articulo, $Conexion, $IdUsuario){
+function AltaProducto($nombre, $descripcion, $precio_unitario, $cantidad,$Tipo, $Conexion, $IdUsuario){
   
-
-
 try{
-        //$IdTipo = BuscarIdTipo($Tipo,$Conexion);
-    //$IdUsuario = BuscarUsuario($Username,$Conexion);
+    $IdTipo = BuscarIdTipo($Tipo,$Conexion);
     $FechaSistema =  date("Y-m-d h:i:s");
 
-    if($IdUsuario==null){
+    if(!$IdUsuario){
         echo'Error al buscar el usuario';
     }else {
-       $ConsultaVenta = "INSERT INTO VENTA(usuario_id, fecha_publicacion) VALUES ('$IdUsuario','$FechaSistema')";
-       $Conexion->query($ConsultaVenta);
-
+        $ConsultaVenta = "INSERT INTO VENTA(usuario_id, fecha_publicacion) VALUES ('$IdUsuario','$FechaSistema')";
+        $Conexion->query($ConsultaVenta);
        
-       $IdVenta = BuscarVenta($IdUsuario,$FechaSistema,$Conexion);
-       header("Location: ../paginas/producto-arriba.php");
-
-       $ConsultaArticulo="INSERT INTO articulos(nombre, descripcion, precio_unitario, cantidad, venta_id, imagen_articulo) VALUES('$nombre','$descripcion',$precio_unitario,$cantidad,$IdVenta,'$imagen_articulo');";
+        $IdVenta = BuscarVenta($IdUsuario,$FechaSistema,$Conexion);
+        echo "Hola Venta $IdTipo";
+        $ConsultaArticulo = "INSERT INTO articulos (nombre, descripcion, precio_unitario, cantidad, venta_id, tipo_id) VALUES ('$nombre', '$descripcion', '$precio_unitario', '$cantidad', '$IdVenta', '$IdTipo');";
+        
        $Conexion->query($ConsultaArticulo);
+
+       header("Location: ../paginas/producto-arriba.php");
     }
+
     }catch(PDOException $e){
     echo "Error: " . $e->getMessage();
     }
