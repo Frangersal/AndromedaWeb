@@ -7,8 +7,7 @@
     </head>
 
     <body>    
-    
-        
+
         <div class="Banner"> 
             <table>
                 <tr>
@@ -18,8 +17,6 @@
                 </tr>
             </table>
         </div>
-
-        
 
 <br>
         <div class="Letreros">
@@ -42,7 +39,7 @@
                         <input type=text name="unm" required/>
                             <br><br>
                         <label for="contrasenia">Contraseña:</label>   
-                        <input type=text name="csn" required>
+                        <input type=password name="csn" required>
                             <br><br>
                         <label for="direccion">Direccion:</label>   
                          <input type=text name="dir" required>
