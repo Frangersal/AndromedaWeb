@@ -45,7 +45,7 @@
                 <tr>
                     
                     <td>
-                     Regostro exitoso, puedes acceder a tu perfil, y comprar productos.
+                     Registro exitoso, puedes acceder a tu perfil, y comprar productos.
                     </td>
                     
                 </tr>
