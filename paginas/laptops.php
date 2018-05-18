@@ -28,8 +28,6 @@
                     <ul>
                         <li><a href="laptops.php">Laptops</a></li>
                         <li><a href="pc.php">PC</a></li>
-                        <li><a href="impresion.php">Impresion</a></li>
-                        <li><a href="accesorios.php">Accesorios</a></li>
                     </ul>
                 </li>
                 <li><a href="perfil.php">Perfil</a></li>
@@ -44,13 +42,13 @@
            <table>
                 <tr>
                     <td>
-                    <a href=""><img src="../imagenes/AC.png" width="200" height="200"></a>
+                    <a href=""><img src="../imagenes/lap1.png" width="200" height="200"></a>
                     </td>
                     <td>
-                    <a href=""><img src="../imagenes/AN.png" width="200" height="200"></a>
+                    <a href=""><img src="../imagenes/lap2.png" width="200" height="200"></a>
                     </td>
                     <td>
-                    <a href=""><img src="../imagenes/ANC.png" width="200" height="200"></a>
+                    <a href=""><img src="../imagenes/lap3.png" width="200" height="200"></a>
                     </td>
                 </tr>
                 <tr>
@@ -83,13 +81,13 @@
             <table>
                 <tr>
                     <td>
-                        <a href=""><img src="../imagenes/AC.png" width="200" height="200"></a>
+                        <a href=""><img src="../imagenes/lap1.png" width="200" height="200"></a>
                     </td>
                     <td>
-                        <a href=""><img src="../imagenes/AN.png" width="200" height="200"></a>
+                        <a href=""><img src="../imagenes/lap2.png" width="200" height="200"></a>
                     </td>
                     <td>
-                        <a href=""><img src="../imagenes/ANC.png" width="200" height="200"></a>
+                        <a href=""><img src="../imagenes/lap3.png" width="200" height="200"></a>
                     </td>
                 </tr>
                 <tr>
@@ -118,42 +116,5 @@
             </table>
         </div>     
 
-        <div class="Estante">
-           <table>
-                <tr>
-                    <td>
-                    <a href=""><img src="../imagenes/AC.png" width="200" height="200"></a>
-                    </td>
-                    <td>
-                    <a href=""><img src="../imagenes/AN.png" width="200" height="200"></a>
-                    </td>
-                    <td>
-                    <a href=""><img src="../imagenes/ANC.png" width="200" height="200"></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                         Nombre uno
-                    </td>
-                    <td>
-                        Nombre dos
-                    </td>
-                    <td>
-                        Nombre tres
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Precio 1.00 $
-                    </td>
-                    <td>
-                        Precio 2.00 $
-                    </td>
-                    <td>
-                        Precio 3.00 $
-                    </td>
-                </tr>            
-            </table>
-        </div>
     </body>
 </html>

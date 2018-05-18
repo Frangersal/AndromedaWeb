@@ -14,8 +14,6 @@
                 <tr>
                     <td><img src="../imagenes/logo.png"></td>
                     <td><a href="../index.php">Entrar</a></td>
-                    <td><a href="registrarse.php">Registrarse</a></td>
-                    <td><a href="carrito.php">Carrito</a></td>
                 </tr>
             </table>
         </div>
@@ -28,8 +26,6 @@
                     <ul>
                         <li><a href="laptops.php">Laptops</a></li>
                         <li><a href="pc.php">PC</a></li>
-                        <li><a href="impresion.php">Impresion</a></li>
-                        <li><a href="accesorios.php">Accesorios</a></li>
                     </ul>
                 </li>
                 <li><a href="perfil.php">Perfil</a></li>

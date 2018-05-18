@@ -27,8 +27,6 @@
                     <ul>
                         <li><a href="../paginas/laptops.php">Laptops</a></li>
                         <li><a href="../paginas/pc.php">PC</a></li>
-                        <li><a href="../paginas/impresion.php">Impresion</a></li>
-                        <li><a href="../paginas/accesorios.php">Accesorios</a></li>
                     </ul>
                 </li>
                 <li><a href="perfil.php">Perfil</a></li>
@@ -61,13 +59,13 @@
            <table>
                 <tr>
                     <td>
-                    <a href=""><img src="Colors/AC.png"></a>
+                    <a href=""><img src="../imagenes/lap1.png"></a>
                     </td>
                     <td>
-                    <a href=""><img src="Colors/AN.png"></a>
+                    <a href=""><img src="../imagenes/lap2.png"></a>
                     </td>
                     <td>
-                    <a href=""><img src="Colors/ANC.png"></a>
+                    <a href=""><img src="../imagenes/lap4.png"></a>
                     </td>
                 </tr>
                 <tr>
@@ -104,13 +102,13 @@
             <table>
                 <tr>
                     <td>
-                        <a href=""><img src="Colors/AC.png"></a>
+                        <a href=""><img src="../imagenes/pc1.png"></a>
                     </td>
                     <td>
-                        <a href=""><img src="Colors/AN.png"></a>
+                        <a href=""><img src="../imagenes/pc2.png"></a>
                     </td>
                     <td>
-                        <a href=""><img src="Colors/ANC.png"></a>
+                        <a href=""><img src="../imagenes/pc3.png"></a>
                     </td>
                 </tr>
                 <tr>

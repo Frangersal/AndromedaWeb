@@ -28,8 +28,6 @@
                     <ul>
                         <li><a href="laptops.php">Laptops</a></li>
                         <li><a href="pc.php">PC</a></li>
-                        <li><a href="impresion.php">Impresion</a></li>
-                        <li><a href="accesorios.php">Accesorios</a></li>
                     </ul>
                 </li>
                 <li><a href="perfil.php">Perfil</a></li>
@@ -75,7 +73,7 @@
             </table>
         </div>
 <div>
-        <form action="articulo-alta.php" method="POST" action="">
+        <form class="Formulario" action="articulo-alta.php" method="POST" action="">
 
                 <input type="submit" value="Vender producto"> 
 
@@ -125,7 +123,7 @@
         </div>     
         
         <div class="Letreros">
-            Impresíon
+            Laptops
         </div>
             
         <div class="Estante">
