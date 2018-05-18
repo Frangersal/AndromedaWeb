@@ -45,13 +45,13 @@
            <table>
                 <tr>
                     <td>
-                    <a href=""><img src="../imagenes/AC.png"  width="200" height="200"></a>
+                    <a href=""><img src="../imagenes/pc1.png"  width="200" height="200"></a>
                     </td>
                     <td>
-                    <a href=""><img src="../imagenes/AN.png" width="200" height="200"></a>
+                    <a href=""><img src="../imagenes/pc2.png" width="200" height="200"></a>
                     </td>
                     <td>
-                    <a href=""><img src="../imagenes/ANC.png" width="200" height="200"></a>
+                    <a href=""><img src="../imagenes/pc3.png" width="200" height="200"></a>
                     </td>
                 </tr>
                 <tr>
@@ -84,13 +84,13 @@
            <table>
                 <tr>
                     <td>
-                    <a href=""><img src="../imagenes/AC.png" width="200" height="200"></a>
+                    <a href=""><img src="../imagenes/pc4.png" width="200" height="200"></a>
                     </td>
                     <td>
-                    <a href=""><img src="../imagenes/AN.png" width="200" height="200"></a>
+                    <a href=""><img src="../imagenes/pc2.png" width="200" height="200"></a>
                     </td>
                     <td>
-                    <a href=""><img src="../imagenes/ANC.png" width="200" height="200"></a>
+                    <a href=""><img src="../imagenes/pc1.png" width="200" height="200"></a>
                     </td>
                 </tr>
                 <tr>
