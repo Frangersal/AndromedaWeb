@@ -55,11 +55,15 @@
                         <label for="cantidad">Cantidad de articulo:</label>   
                         <input type=num name="cantidad-articulo" required>
                             <br><br>
-
-
                         <label for="imagen">Imagen:</label>   
                          <input type="file" name="imagen" size="200" required>
                            <br><br>
+
+                        <select  name="comboTipo" required >
+                            <option value="" disabled selected>Tipo</option>
+                            <option value="Pc">PC</option>
+                            <option value="Laptop">Laptop</option>
+                        </select>
 
                            <input type="submit" value="Subir articulo"> 
 
