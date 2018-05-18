@@ -1,5 +1,5 @@
 <?php
-//Alina :v
+
 $Servidor = "localhost";
 $BaseDatos = "tiendaonline";
 $Usuario = "root";
