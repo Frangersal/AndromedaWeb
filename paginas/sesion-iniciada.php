@@ -139,46 +139,6 @@
             </table>
         </div>     
         
-        <div class="Letreros">
-            Impresíon
-        </div>
-            
-        <div class="Estante">
-           <table>
-                <tr>
-                    <td>
-                    <a href=""><img src="Colors/AC.png"></a>
-                    </td>
-                    <td>
-                    <a href=""><img src="Colors/AN.png"></a>
-                    </td>
-                    <td>
-                    <a href=""><img src="Colors/ANC.png"></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                         Nombre uno
-                    </td>
-                    <td>
-                        Nombre dos
-                    </td>
-                    <td>
-                        Nombre tres
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Precio 1.00 $
-                    </td>
-                    <td>
-                        Precio 2.00 $
-                    </td>
-                    <td>
-                        Precio 3.00 $
-                    </td>
-                </tr>            
-            </table>
-        </div>
+        
     </body>
 </html>
