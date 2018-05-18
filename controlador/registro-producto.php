@@ -7,11 +7,9 @@ $nombre = $_POST['nombre-articulo'];
 $descripcion = $_POST['descripcion'];
 $precio_unitario = $_POST['precio_unitario'];
 $cantidad = $_POST['cantidad-articulo'];
-//$venta_id = "usuario";
-$username = $_SESSION['usuario'];
-$imagen_articulo = $_POST['imagen'];
+$username = 2;
+$tipo = $_POST['comboTipo'];
 
-AltaProducto($nombre, $descripcion, $precio_unitario, $cantidad, $imagen_articulo, $conexion, $username);
-
+AltaProducto($nombre, $descripcion, $precio_unitario, $cantidad,$tipo, $conexion, $username);
 
 ?>
