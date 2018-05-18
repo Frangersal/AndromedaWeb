@@ -74,9 +74,10 @@
         </div>
 <div>
         <form class="Formulario" action="articulo-alta.php" method="POST" action="">
-
                 <input type="submit" value="Vender producto"> 
-
+        </form>
+        <form class="Formulario" action="agregar-saldo.php" method="POST" action="">
+                <input type="submit" value="Agregar saldo"> 
         </form>
 </div>
         <div class="Letreros">
