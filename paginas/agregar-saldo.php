@@ -35,7 +35,7 @@
         </div>
 <br>
         <div class="Letreros">
-            Vender articulo
+            Agregar saldo.
         </div>
         <br>        
         <div class="Formulario">
@@ -43,8 +43,8 @@
                 <form method="POST" action="../controlador/registro-producto.php" enctype="multipart/form-data" >
                         
 
-                        <label for="cantidad">Cantidad de articulo:</label>   
-                        <input type=num name="cantidad-articulo" required>
+                        <label for="saldo">Saldo a agregar:</label>   
+                        <input type=num name="saldo" required>
                             <br><br>
 
                            <input type="submit" value="Agregar saldo"> 
